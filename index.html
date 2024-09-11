@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="jpeg"> 
+        <img src="/assets/gornoe-ozero-sosny-eli.jpg" alt="">
+        <span>JPEG</span>
+    </div>
+    <div class="jpeg">
+        <img src="/assets/gornoe-ozero-sosny-eli-MINI.jpg" alt="">
+        <span>JPEG-MINI</span>
+    </div>
+    <div class="jpeg">
+        <img src="/assets/gornoe-ozero-sosny-eli-MINI-webp.webp" alt="">
+        <span>WEBP</span>
+    </div> -->
+
+    <picture>
+        <source srcset="/assets/gornoe-ozero-sosny-eli-MINI-webp.webp" type="image/webp">
+        <source srcset="/assets/gornoe-ozero-sosny-eli-MINI.jpg" type="image/jpeg">
+        <img src="/assets/gornoe-ozero-sosny-eli.jpg" alt="">
+    </picture>
+</body>
+</html>
